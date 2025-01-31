@@ -1,7 +1,36 @@
+@font-face {
+	font-family: "Montserrat"; 
+    font-style: normal;
+	font-weight: normal;
+	src: url(/fonts/Montserrat/Montserrat-Black.ttf); 
+}
+
+@font-face {
+	font-family: "Montserrat"; 
+	font-style: normal;
+	font-weight: bold;
+	src: url(/fonts/Montserrat/Montserrat-Bold.ttf); 
+}
+
+@font-face {
+	font-family: "Montserrat"; 
+	font-style: normal;
+	font-weight: 900;
+	src: url(/fonts/Montserrat/Montserrat-ExtraBold.ttf); 
+}
+
+@font-face {
+	font-family: "Montserrat"; 
+	font-style: italic;
+	font-weight: normal;
+	src: url(/fonts/Montserrat/Montserrat-Italic.ttf); 
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat";
 }
 
 .main-page {
@@ -50,7 +79,11 @@
 }
 .form {
 }
-.form__select {
+.form__select, .form__select:hover,
+.form__select:focus {
+    border: none;
+    font-weight: 900;
+    color: #555555;
 }
 .form__option {
 }
