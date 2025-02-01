@@ -2,7 +2,7 @@
 	font-family: "Montserrat"; 
     font-style: normal;
 	font-weight: normal;
-	src: url(/fonts/Montserrat/Montserrat-Black.ttf); 
+	src: url(/fonts/Montserrat/Montserrat-Medium.ttf); 
 }
 
 @font-face {
@@ -31,6 +31,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
+    font-weight: normal;
 }
 
 .main-page {
@@ -61,15 +62,23 @@
 
 .options-container__button--with-image {
 }
+
 .button--with-image {
+    background: none;
+    border: none;
 }
+
 .button--with-image__button-image {
+    height: 100%;
+    width: 100%;
 }
+
 .logo-with--title {
 }
 .logo-with--title__image {
 }
 .option-container__lang-name {
+    color: #555555;
 }
 .option-container__lang-image {
 }
@@ -88,9 +97,18 @@
 .form__option {
 }
 .option-container__hint {
+    color: #00B8FF;
+    text-decoration: underline dashed;
 }
+
 .button {
+    color: white;
+    background-color: #00B8FF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 .option-container {
 }
 
