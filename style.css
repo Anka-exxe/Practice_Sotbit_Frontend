@@ -44,11 +44,11 @@
 
 .header-menu{
     display: flex;
+    justify-content: space-around;
 }
 
 .main-page__header-menu {
-    justify-content: space-around;
-    flex-grow: 0.1;
+    flex-grow: 2;
 }
 
 .header-menu__options-container {
@@ -110,16 +110,32 @@
 }
 
 .option-container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.main-page__presentation {
-    flex-grow: 0.45;
+.option-container > * {
+    margin-left: 10px;
 }
 
-.catalog{
+.main-page__main {
+    flex-grow: 10;
+    display: flex;
+}
 
+.main-page__banner {
+    flex-grow: 5;
 }
 
 .main-page__catalog {
-    flex-grow: 0.45;
+    flex-grow: 5;
+}
+
+.banner {
+
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
 }
