@@ -49,9 +49,12 @@
                                     <img src="/images/support.svg" alt="search" class="button--with-image__button-image">
                                 </button>
                                 <div class="basket-icon">
-                                    <button class="button--with-image">
+                                <button class="basket-icon__button--with-image button--with-image">
                                     <img src="/images/basket.svg" alt="search" class="button--with-image__button-image">
                                 </button>
+                                <div class="basket-icon__basket-items-count-container">
+                                    <p class="basket-icon__basket-items-count">0<p>
+                                </div>
                                 </div>
                                 <button class="button--with-image">
                                     <img src="/images/user.svg" alt="search" class="button--with-image__button-image">
@@ -62,13 +65,13 @@
                 <main class="main-page__main">
                     <div class="main-page__banner banner">
                         <div class="banner__body">  
-                            <div class="banner__white-bubble-with-blue">
+                            <div class="banner__below-description-bubble-container">
                                 <img class="banner__white-bubble" src="/images/white_bubble.svg" alt="" ></img>
                                 <img class="banner__bubble-bubbles-under-white" src="/images/blue_bubble_and_2_white_bubbles.svg" alt="" ></img>
                             </div>
 
                             <article class="banner__banner-description banner-description">
-                                <h1 class="banner-description__title">Разработка и внедрение B2B платформы на Битрикс</h1>
+                                <h1 class="banner-description__title title">Разработка и внедрение B2B платформы на Битрикс</h1>
                                 <ol class="banner-description__list">   
                                     <li class="banner-description__list-item">Быстрый запуск B2B платформы за одну неделю</li>
                                     <li class="banner-description__list-item">Гарантия качественного выполнения работ точно в срок</li>
@@ -81,18 +84,83 @@
                                 </button>
                             </article>
 
-                            
-
-                            <div class="banner__min-white-bubbles-tablet-blue-bubbles">
-                                <img src="/images/bubble_and_tablet.svg" alt="" ></img>
-                                <img src="/images/blue_bubble_and_2_white_bubbles.svg" alt="" ></img>
+                            <div class="banner__under-description-bubble-container">
+                                <img class="banner__bubble_and_tablet-under-description" src="/images/bubble_and_tablet.svg" alt="" ></img>
+                                <img class="banner__blue-with-white-under-description" src="/images/blue_bubble_and_2_white_bubbles.svg" alt="" ></img>
                             </div>
 
+                            <div class="banner_below-desktop-container">
+                                <img src="/images/bubble_and_tablet.svg" alt="" class="blue-buble-tablet-below-desktop">
+                            </div>
+
+                            <div class="banner_below-desktop-container">
+                                <img src="/images/bubble_and_tablet.svg" alt="" class="blue-buble-tablet-below-desktop">
+                            </div>
+
+                            <div class="banner_desktop-container">
+                                <img src="/images/desktop.svg" alt="" class="banner_desktop">
+                                <img src="/images/desktop_screen1920.png" alt="" class="banner_desktop-screen">
+                            </div>
                             
                         </div>
                     </div>
                     <section class="main-page__catalog catalog">
-
+                        <h1 class="title">Наши услуги<h1>
+                            <div class="catalog__body">
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/b2b.svg">
+                                    <h3 class="service-card__title">Внедрение личных кабинетов</h3>
+                                    <p class="service-card__description">Разработка и внедрение B2B порталов для оптимизации взаимодействия с контрагентами и увеличения прибыли. При интеграции с системами 1С и CRM Битрикс 24 магазин требует меньше трудозатрат на сопровождение заказа.</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/marketplace.svg">
+                                    <h3 class="service-card__title">Разработка маркетплейсов</h3>
+                                    <p class="service-card__description">Разработка и внедрение личного кабинета поставщика на Битрикс для организации единой торговой онлайн-площадки. Получите готовую платформу с передовым функционалом в короткие сроки и за разумные деньги.</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/online-shop.svg">
+                                    <h3 class="service-card__title">Создание интернет-магазинов</h3>
+                                    <p class="service-card__description">Разработка, внедрение типовых и уникальных интернет-магазинов на Битрикс. Готовые решения сайтов созданы для продажи ваших товаров в розницу без привлечения дополнительных исполнителей.</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/bitrix_24.svg">
+                                    <h3 class="service-card__title">Внедрение Битрикс24</h3>
+                                    <p class="service-card__description">Внедрение Битрикс24 и Корпоративных порталов для оптимизации бизнес-процессов компании.</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/technicial_support.svg">
+                                    <h3 class="service-card__title">Техподдержка сайта</h3>
+                                    <p class="service-card__description">Доработка типовых решений для Битрикс, разработка функционала под задачи бизнеса, сопровождение проектов</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/developing_and_integration1С.svg">
+                                    <h3 class="service-card__title">Обслуживание 1C</h3>
+                                    <p class="service-card__description">Интеграция 1С со сторонними системами, доработка типовых модулей обмена, разработка АРI.</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/integration_and_1С.svg">
+                                    <h3 class="service-card__title">1C-интеграция</h3>
+                                    <p class="service-card__description">Интеграция eCommerce проекта с учетными системами и внешними сервисами.</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/mobile.svg">
+                                    <h3 class="service-card__title">Мобильная разработка</h3>
+                                    <p class="service-card__description">Создание iOS и Android приложений для интернет-магазинов и B2B-платформ на Битрикс.</p>
+                                </article>
+    
+                                <article class="service-card">
+                                    <img class="service-card__image" src="images/design.svg">
+                                    <h3 class="service-card__title">Дизайн</h3>
+                                    <p class="service-card__description">Бренд-дизайн, брендбук, UI/UX, пользовательские интерфейсы, графика и прочее.</p>
+                                </article>
+                            </div>
                     </section>
                 </main>
             </div>
