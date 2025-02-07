@@ -11,7 +11,7 @@
                 <header class="main-page__header-menu header-menu">
                     <div class="header-menu__options-container options-container"> 
                         <button class="options-container__button--with-image button--with-image">
-                            <img src="/images/icon_menu.svg" alt="menu" class="button--with-image__button-image">
+                            <img src="/images/icon_menu.svg" alt="menu" class="button__image">
                         </button>
 
                         <div class="logo-with--title">  
@@ -20,9 +20,9 @@
 
                         <div class="language-select-container"> 
                             <p class="language-select-container__lang-name">Россия</p>
-                            <img src="/images/russian_language.svg" alt="Russian" class="button--with-image__button-image">
+                            <img src="/images/russian_language.svg" alt="Russian" class="button__image">
                             <button class="button--with-image">
-                                <img src="/images/down_arrow.svg" alt="select" class="button--with-image__button-image">
+                                <img src="/images/down_arrow.svg" alt="select" class="button__image">
                             </button>  
                         </div>
                     </div>
@@ -40,24 +40,24 @@
                             </p> 
                         </div>
 
-                        <button class="button">Оставить заяку</button>
+                        <button class="header-menu__request-button button">Оставить заяку</button>
                             <div class="options-container"> 
                                 <button class="button--with-image">
-                                    <img src="/images/search.svg" alt="search" class="button--with-image__button-image">
+                                    <img src="/images/search.svg" alt="search" class="button__image">
                                 </button>
                                 <button class="button--with-image">
-                                    <img src="/images/support.svg" alt="search" class="button--with-image__button-image">
+                                    <img src="/images/support.svg" alt="search" class="button__image">
                                 </button>
                                 <div class="basket-icon">
                                 <button class="basket-icon__button--with-image button--with-image">
-                                    <img src="/images/basket.svg" alt="search" class="button--with-image__button-image">
+                                    <img src="/images/basket.svg" alt="search" class="button__image">
                                 </button>
                                 <div class="basket-icon__basket-items-count-container">
                                     <p class="basket-icon__basket-items-count">0<p>
                                 </div>
                                 </div>
                                 <button class="button--with-image">
-                                    <img src="/images/user.svg" alt="search" class="button--with-image__button-image">
+                                    <img src="/images/user.svg" alt="search" class="button__image">
                                 </button>
                             </div>
                     </div>
@@ -84,7 +84,7 @@
 
                                 <button class="banner-description__button button"> 
                                     <p>Подробнее</p>
-                                    <img src="/images/diagonal_arrow.svg" alt="search" class="button--with-image__button-image">
+                                    <img src="/images/diagonal_arrow.svg" alt="search" class="button__image">
                                 </button>
                             </article>
 
@@ -112,7 +112,13 @@
                         <h1 class="title">Наши услуги<h1>
                             <div class="catalog__body">
                                 <article class="service-card">
-                                    <img class="service-card__image" src="images/b2b.svg">
+                                    <header class="service-card__header">
+                                        <img class="service-card__image" src="images/b2b.svg">
+                                        <button class="service-card__button--with-image button--with-image">
+                                            <img src="/images/card_details_button_icon.svg" alt="search" class="button__image">
+                                        </button>
+                                    </header>
+
                                     <h3 class="service-card__title">Внедрение личных кабинетов</h3>
                                     <p class="service-card__description">Разработка и внедрение B2B порталов для оптимизации взаимодействия с контрагентами и увеличения прибыли. При интеграции с системами 1С и CRM Битрикс 24 магазин требует меньше трудозатрат на сопровождение заказа.</p>
                                 </article>
