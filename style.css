@@ -403,7 +403,7 @@ body {
 }
 
 .banner__banner-description {
-    width: 45%;
+    width: calc(100% - 852px - 34px - 30px);
     margin-left: 110px;
     position: absolute;
     left: 0;
@@ -415,12 +415,14 @@ body {
 
 @media (max-width: 1440px) {
     .banner__banner-description {
+        width: calc(100% - 709px - 34px - 15px);
         margin-left: 60px;
     }
 }
 
 @media (max-width: 1024px) {
     .banner__banner-description {
+        width: calc(100% - 519px - 20px);
         margin-left: 20px;
     }
 }
