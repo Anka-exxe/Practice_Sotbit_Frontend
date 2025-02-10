@@ -587,7 +587,7 @@ body {
 }
 
 .banner__desktop-container {
-    background: url("images/desktop.svg") no-repeat;
+    background: url("images/laptop-1920.svg") no-repeat;
     margin: 0;
     position: absolute;
     right: 20px;
@@ -600,6 +600,7 @@ body {
 
 @media (max-width: 1440px) {
     .banner__desktop-container {
+        background: url("images/laptop.svg") no-repeat;
         height: 411px;
         width: 709px;
         background-size: contain;
@@ -639,93 +640,6 @@ body {
         height: 172px;
         width: 297px;
     }
-}
-
-.banner_desktop-screen-1920 {
-    margin: 0;
-    position: absolute;
-    left: 105px;
-    top: 47%;
-    transform: translateY(-50%); 
-    height: 411px;
-    width: 650px;
-}
-
-@media (max-width: 1440px) {
-    .banner_desktop-screen-1920 {
-        display: none;
-    }
-}
-
-.banner_desktop-screen {
-    display: none;
-}
-
-@media (max-width: 1440px) {
-    .banner_desktop-screen {
-        display: block;
-        margin: 0;
-        position: absolute;
-        left: 127px;
-        top: 41%;
-        transform: translateY(-50%); 
-        height: auto;
-        width: 467px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .banner_desktop-screen {
-        left: 92px;
-        top: 41.2%;
-        transform: translateY(-50%); 
-        height: auto;
-        width: 341px;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .banner_desktop-screen {
-        left: 112px;
-        top: 41.2%;
-        transform: translateY(-50%); 
-        height: auto;
-        width: 419px;
-    }
-}
-
-@media (max-width: 620px) {
-    .banner_desktop-screen {
-        left: 92px;
-        top: 41.2%;
-        transform: translateY(-50%); 
-        height: auto;
-        width: 341px;
-    }
-}
-
-@media (max-width: 415px) {
-    .banner_desktop-screen {
-        left: 53px;
-        top: 41.2%;
-        transform: translateY(-50%); 
-        height: auto;
-        width: 195px;
-    }
-}
-
-.banner__desktop {
-    display: none;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    width: 50%;
-    height: 50%;
 }
 
 .banner__left-arrow-button {
