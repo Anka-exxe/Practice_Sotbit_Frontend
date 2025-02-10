@@ -138,10 +138,6 @@ body {
     border: none;
 }
 
-.button--with-image__button-image {
-  
-}
-
 .logo-with--title {
     height: 30px;
     width: 143px;
@@ -159,10 +155,6 @@ body {
 .logo-with--title__image {
     height: 100%;
     width: auto;
-}
-
-.option-container__lang-image {
-  
 }
 
 .language-select-container {
@@ -251,9 +243,6 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
-}
-
-.button--with-image__button-image {
 }
 
 .basket-icon__basket-items-count-container {
@@ -363,7 +352,6 @@ body {
         background-position: bottom 35px right -35px;
     }
 }
-
 
 .banner__background-ellipse-container {
     position: absolute; 
@@ -714,10 +702,6 @@ body {
     z-index: 1;
     width: 50%;
     height: 50%;
-}
-
-.banner_desktop-screen {
-    
 }
 
 .banner__left-arrow-button {
